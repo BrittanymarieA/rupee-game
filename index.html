@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Counter</title>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="header">
+                <h1>CrystalCollector!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="instructions">
+                <p>
+                    You will be given a random number at the start of the game.
+                </p>
+                <br>
+                <p>
+                    There are four crystals "rupees". By clicking on a crystal you will add a specific amount of points
+                    to your
+                    total score.
+                </p>
+                <br>
+                <p>
+                    You win the game by matching your total score to random number, you lose the game if your total
+                    score goes
+                    above the random number.
+                </p>
+                <br>
+                <p>
+                    The value of each crystal is hidden from you until you click on it.
+                </p>
+                <br>
+                <p>
+                    Each time when the game starts, the game will change the value of each crystal.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div id="firstnumber" class="col-md-2"></div>
+            <div id="score" class="col-md-2">
+                <br>
+                <p>wins:</p>
+                <br>
+                <p>losses:</p>
+            </div>
+        </div>
+        <div class="row">
+            <img class="col-md-2" id="red" src="assets/images/rupees/Red-rupee.jpg" alt="red">
+            <img class="col-md-2" id="green" src="assets/images/rupees/green-rupee.jpg" alt="green">
+            <img class="col-md-2" id="blue" src="assets/images/rupees/blue-rupee.jpg" alt="blue">
+            <img clss="col-md-2" id="yellow" src="assets/images/rupees/yellow-rupee.jpg" alt="">
+        </div>
+        <div class="row">
+            <div class="col-md-2 tscore" total scor>
+                <p>
+                    Your total Score is:
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2" id="totalscore"></div>
+        </div>
+    </div>
+</body>
+
+</html>
