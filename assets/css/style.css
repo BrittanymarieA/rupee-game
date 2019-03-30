@@ -68,3 +68,12 @@
     margin: 10px;
 }
 
+img{
+    height: 250px;
+    width: auto;
+   }
+   
+   button{
+       border: none;
+       background: none;
+   }   
